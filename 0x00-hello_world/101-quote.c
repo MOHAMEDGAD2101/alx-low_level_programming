@@ -1,9 +1,9 @@
 #include <unistd.h>
 /**
-*main -entry point
-*description : print a quote us writing function
-*write (int fd.const void *buf,size_t count)
-*return : 1(not succes)
+* main - Entry point
+* Description: print a quote us writing function
+* ssize_t write(int fd.const void *buf,size_t count):
+*return : 1 (error)
 */
 int main(void)
 {
