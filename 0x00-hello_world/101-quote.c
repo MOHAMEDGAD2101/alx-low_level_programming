@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
 *File: 101-quote.c
 *Auth: Brennan D Baraban
@@ -15,10 +14,8 @@
 int main(void)
 {
 	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-=======
 #include <stdio.h>
 #include <unistd.h>
-
 /**
 * main - Entry point
 *
@@ -32,6 +29,5 @@ int main(void)
 {
 	write(2,
 	"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
->>>>>>> d5c3113404869136452b8b776a8663e8b2c243f7
 	return (1);
 }
