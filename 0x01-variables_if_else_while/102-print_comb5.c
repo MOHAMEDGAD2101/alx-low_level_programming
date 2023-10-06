@@ -30,7 +30,7 @@ int main(void)
 			}
 			seconDigit++;
 		}
-		firstdigit++;
+		firstDigit++;
 	}
 	putchar('\n');
 	return (0);
