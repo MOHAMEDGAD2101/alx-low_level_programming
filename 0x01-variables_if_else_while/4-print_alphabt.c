@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * description: print all alphabet letters accebt q and e
- * return: always 0 (success)
+ * main - Entry point
+ * Description: print all alphabet letters accebt q and e
+ * Return: always 0 (Success)
  */
 
-int main(void)
+int     main(void)
+
 {
 	char  ch = 'a';
 
