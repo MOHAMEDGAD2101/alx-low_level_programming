@@ -17,6 +17,7 @@ int main(void)
 		if (digit != 9)
 		{
 			putchar(',');
+			putchar(' ');
 		}
 		digit++;
 	}
