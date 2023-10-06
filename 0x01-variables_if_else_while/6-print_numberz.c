@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - Entry point
  * Description: Print number of base 10 using putchar
@@ -9,11 +9,11 @@
 
 int main(void)
 {
-		int n
+		int x
 
-		for (n = 0; n <= 9; n++)
+		for (x = 48; x < 58; x++)
 		{
-			putchar(n +48);
+			putchar(x);
 		}
 		putchar('\n');
 
