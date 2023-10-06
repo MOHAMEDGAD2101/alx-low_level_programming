@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
- * Description: 'Print number of base 10 using putchar'
+ * Description: Print number of base 10 using putchar
  *
  * Return: always 0 (Success)
  */
