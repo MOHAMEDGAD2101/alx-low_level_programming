@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 
 /**
  *  * times_table - prints the 9 times table
@@ -8,28 +8,28 @@
  */
 void times_table(void)
 {
-	int i, j, k;
+	int num, multi, prod;
 
-	for (i = 0; i <= 9; i++)
+	for (num = 0; num <= 9; num++)
 	{
 		_putchar(48);
-		for (j = 1; j <= 9; j++)
+		for (multi = 1; multi <= 9; multi++)
 		{
 			_putchar(',');
 			_putchar(' ');
 
-			k = i * j;
+			prod = num * multi
 			/*
 			 * put space if product is a single number
 			 * place the first digit if its two number
 			 */
 
-			if (k <= 9)
-
+			if (prod <= 9)
 				_putchar(' ');
-				_putchar((k / 10) + 48); /*get the first digit*/
+			else
+				_putchar((prod / 10) + 48); /*get the first digit*/
 
-			_putchar((k % 10) + 48); /*get the second digit*/
+			_putchar((prod % 10) + 48); /*get the second digit*/
 		}
 		_putchar('\n');
 	}
