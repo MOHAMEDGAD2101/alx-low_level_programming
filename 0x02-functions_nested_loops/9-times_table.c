@@ -18,14 +18,15 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			k = i * j
+			k = i * j;
 			/*
 			 * put space if product is a single number
 			 * place the first digit if its two number
 			 */
+
 			if (k <= 9)
+
 				_putchar(' ');
-			else
 				_putchar((k / 10) + 48); /*get the first digit*/
 
 			_putchar((k % 10) + 48); /*get the second digit*/
