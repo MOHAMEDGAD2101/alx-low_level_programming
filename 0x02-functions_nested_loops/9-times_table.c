@@ -41,5 +41,5 @@ else if (k >= 10)
 }
 	_putchar('\n');
 	}
-}
+
 
