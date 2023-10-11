@@ -18,7 +18,7 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 
-			prod = i * k
+			k = i * j
 			/*
 			 * put space if product is a single number
 			 * place the first digit if its two number
