@@ -11,7 +11,7 @@ void times_table(void)
 	int i, j, k;
 
 	for (i = 0; i <= 9; i++)
-	
+
 		_putchar(48);
 		for (j = 1; j <= 9; j++)
 		{
@@ -24,7 +24,7 @@ void times_table(void)
 			 * place the first digit if its two number
 			 */
 			if (k <= 9)
-				_putchar('');
+				_putchar(' ');
 			else
 				_putchar((k / 10) + 48); /*get the first digit*/
 
